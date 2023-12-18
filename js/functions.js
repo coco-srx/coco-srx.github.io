@@ -108,6 +108,7 @@ function timeElapse(c) {
         f = "0" + f
     }
     var a = '<span class="digit">' + g + '</span> days <span class="digit">' + b + '</span> hours <span class="digit">' + d + '</span> minutes <span class="digit">' + f + "</span> seconds";
+    console.log(c);
     $("#elapseClock").html(a)
 }
 function showMessages() {
